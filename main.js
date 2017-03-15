@@ -45,8 +45,6 @@ window.onload = function () {
 	var main = document.getElementsByTagName('main')[0];
 	main.appendChild( regSlider );
 
-
-	// var regSlider = document.getElementById('regular_slider');
 	noUiSlider.create( regSlider, settings );
 
 };
