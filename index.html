@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider Bug Demo</title>
+
+	<!-- For the slider in the top window/document -->
+	<link rel="stylesheet" href="node_modules/nouislider/distribute/nouislider.css">
+
+	<style>
+		body {
+			text-align: center;
+			background: rgb(240, 240, 240);
+		}
+		main {
+			width: 70%;
+			margin: 0 auto;
+			padding: 1rem;
+			padding-top: 0rem;
+			background: white;
+		}
+	</style>
+</head>
+<body>
+	
+	<main>
+		<h1>Dragging a noUISlider Handle in an Iframe</h1>
+		<div id="iframe_description">This slider is in an iframe. Try dragging the handle. It shouldn't work with this version of noUISlider. Clicking in the bar should work.</div>
+		<br>
+		<iframe id='iframe' frameborder="1"></iframe>
+		<br>
+		<br>
+		<div id='description_regular'>Just for you doubters out there, here's a slider, created in the same way, working just fine (other than the style being a little off) in the regular document:</div>
+		<br>
+	</main>
+	
+	<script src="node_modules/nouislider/distribute/nouislider.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
