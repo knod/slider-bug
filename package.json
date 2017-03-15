@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/knod/slider-bug/issues"
   },
-  "homepage": "https://github.com/knod/slider-bug#readme"
+  "homepage": "https://github.com/knod/slider-bug#readme",
+  "dependencies": {
+    "nouislider": "^9.2.0"
+  }
 }
