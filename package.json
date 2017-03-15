@@ -1,0 +1,17 @@
+{
+  "name": "slider-bug",
+  "version": "1.0.0",
+  "description": "A demo of a bug. Easier than working out jsfiddle issues for now.",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knod/slider-bug.git"
+  },
+  "author": "knod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knod/slider-bug/issues"
+  },
+  "homepage": "https://github.com/knod/slider-bug#readme"
+}
